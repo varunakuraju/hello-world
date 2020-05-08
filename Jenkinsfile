@@ -16,6 +16,12 @@ pipeline {
           }
         }
 
+        stage('normal stage') {
+          steps {
+            sh 'man top'
+          }
+        }
+
       }
     }
 
