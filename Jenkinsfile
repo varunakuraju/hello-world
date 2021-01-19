@@ -7,6 +7,7 @@ pipeline {
           steps {
             sh 'ls -al'
             sh 'ps -ef'
+            sh 'ls -a'
           }
         }
 
